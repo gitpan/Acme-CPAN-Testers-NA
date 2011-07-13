@@ -1,0 +1,15 @@
+use strict;
+use warnings;
+use inc::Module::Install;
+die "OS unsupported\n" unless $Module::Install::AUTHOR;
+name 'Acme-CPAN-Testers-NA';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/Acme/CPAN/Testers/NA.pm';
+abstract_from 'lib/Acme/CPAN/Testers/NA.pm';
+readme_from 'lib/Acme/CPAN/Testers/NA.pm';
+perl_version '5.006';
+license 'perl';
+auto_license holder => 'Chris Williams';
+githubmeta;
+auto_provides;
+WriteAll();

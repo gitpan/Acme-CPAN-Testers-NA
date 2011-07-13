@@ -1,0 +1,9 @@
+NAME
+    Acme::CPAN::Testers::NA - generate an NA test report
+
+DESCRIPTION
+    Acme::CPAN::Testers::NA generates an "NA" test report when run by a CPAN
+    Tester.
+
+    That's pretty much it, really.
+
